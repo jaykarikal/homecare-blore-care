@@ -11,13 +11,13 @@ const Hero = () => {
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                <span className="text-primary">Compassionate</span> Care
+                <span className="text-primary">Care with Grace</span>
                 <br />
-                <span className="text-secondary">In Your Home</span>
+                <span className="text-secondary">Comfort with Heart</span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
-                Professional home care services in Bangalore providing personalized medical care, 
-                companionship, and support for your loved ones in the comfort of their own home.
+                JunoNest provides compassionate home care services in Bangalore, offering personalized medical care, 
+                companionship, and support for your loved ones in the comfort and familiarity of their own home.
               </p>
             </div>
 
@@ -86,9 +86,11 @@ const Hero = () => {
             {/* Floating Card */}
             <div className="absolute -bottom-6 -left-6 bg-background p-6 rounded-xl shadow-medium border border-border">
               <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-gradient-hero rounded-full flex items-center justify-center">
-                  <Heart className="w-6 h-6 text-white" />
-                </div>
+                <img 
+                  src="/lovable-uploads/6f2622de-88fa-4a22-ad10-f2c22964c459.png" 
+                  alt="JunoNest Logo" 
+                  className="h-10 w-auto"
+                />
                 <div>
                   <div className="font-semibold text-foreground">Trusted Care</div>
                   <div className="text-sm text-muted-foreground">Since 2019</div>

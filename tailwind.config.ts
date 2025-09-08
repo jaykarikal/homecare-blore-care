@@ -50,10 +50,10 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        healthcare: {
-          blue: "hsl(var(--healthcare-blue))",
-          green: "hsl(var(--healthcare-green))",
-          orange: "hsl(var(--healthcare-orange))",
+        junonest: {
+          navy: "hsl(var(--junonest-navy))",
+          teal: "hsl(var(--junonest-teal))",
+          accent: "hsl(var(--junonest-accent))",
         },
         "soft-gray": "hsl(var(--soft-gray))",
         sidebar: {

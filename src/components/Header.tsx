@@ -16,14 +16,12 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 bg-background/95 backdrop-blur-sm border-b border-border z-50 shadow-soft">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center space-x-2">
-          <div className="w-10 h-10 bg-gradient-hero rounded-full flex items-center justify-center">
-            <Heart className="w-6 h-6 text-white" />
-          </div>
-          <div>
-            <h1 className="text-xl font-bold text-primary">CareConnect</h1>
-            <p className="text-xs text-muted-foreground">Home Care Services</p>
-          </div>
+        <div className="flex items-center space-x-3">
+          <img 
+            src="/lovable-uploads/6f2622de-88fa-4a22-ad10-f2c22964c459.png" 
+            alt="JunoNest Care Logo" 
+            className="h-12 w-auto"
+          />
         </div>
 
         {/* Desktop Navigation */}

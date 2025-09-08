@@ -42,17 +42,15 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-                <Heart className="w-6 h-6 text-primary" />
-              </div>
-              <div>
-                <h3 className="text-xl font-bold">CareConnect</h3>
-                <p className="text-sm opacity-80">Home Care Services</p>
-              </div>
+            <div className="flex items-center space-x-3">
+              <img 
+                src="/lovable-uploads/6f2622de-88fa-4a22-ad10-f2c22964c459.png" 
+                alt="JunoNest Care Logo" 
+                className="h-12 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-sm opacity-90 leading-relaxed">
-              Providing compassionate, professional home care services across Bangalore. 
+              Providing compassionate, professional home care services across Bangalore with grace and heart. 
               Your loved ones deserve the best care in the comfort of their own home.
             </p>
             <div className="space-y-2">
@@ -62,7 +60,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2 text-sm">
                 <Mail className="w-4 h-4" />
-                <span>info@careconnect.com</span>
+                <span>info@junonest.com</span>
               </div>
               <div className="flex items-center space-x-2 text-sm">
                 <MapPin className="w-4 h-4" />
@@ -159,7 +157,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="text-sm opacity-90 mb-4 md:mb-0">
-              © {currentYear} CareConnect Home Care Services. All rights reserved.
+              © {currentYear} JunoNest Care Services. All rights reserved.
             </div>
             
             {/* Social Links */}

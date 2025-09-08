@@ -47,7 +47,7 @@ const About = () => {
     {
       name: "Priya Sharma",
       location: "Koramangala, Bangalore",
-      text: "CareConnect has been a blessing for our family. Their caregiver helped my mother regain her independence after her hip surgery. The professionalism and kindness shown was exceptional.",
+      text: "JunoNest has been a blessing for our family. Their caregiver helped my mother regain her independence after her hip surgery. The professionalism and kindness shown was exceptional - truly care with grace.",
       rating: 5
     },
     {
@@ -71,10 +71,10 @@ const About = () => {
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             <span className="text-primary">About</span>{" "}
-            <span className="text-secondary">CareConnect</span>
+            <span className="text-secondary">JunoNest</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Dedicated to providing exceptional home care services that enable your loved ones to live comfortably and safely in their own homes.
+            Dedicated to providing exceptional home care services with grace and heart, enabling your loved ones to live comfortably and safely in their own homes.
           </p>
         </div>
 
@@ -87,15 +87,15 @@ const About = () => {
                 Your Trusted Home Care Partner in Bangalore
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Founded in 2019, CareConnect has been serving families across Bangalore with 
-                compassionate, professional home care services. We understand that there's no place 
+                Founded in 2019, JunoNest has been serving families across Bangalore with 
+                compassionate, professional home care services rooted in grace and heart. We understand that there's no place 
                 like home, and we're committed to helping your loved ones maintain their independence, 
                 dignity, and quality of life in familiar surroundings.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Our team of licensed nurses, certified caregivers, and support staff work together 
                 to provide personalized care plans that address the unique needs of each client. 
-                From medical care to companionship, we're here to support your family every step of the way.
+                From medical care to companionship, we're here to support your family every step of the way with grace and compassion.
               </p>
             </div>
 
@@ -174,7 +174,7 @@ const About = () => {
 
         {/* Testimonials */}
         <div className="bg-gradient-card rounded-2xl p-8 shadow-medium">
-          <h3 className="text-2xl font-bold text-center mb-8 text-primary">What Families Say About Us</h3>
+          <h3 className="text-2xl font-bold text-center mb-8 text-primary">What Families Say About JunoNest</h3>
           <div className="grid md:grid-cols-3 gap-6">
             {testimonials.map((testimonial, index) => (
               <Card key={index} className="border-0 shadow-soft">

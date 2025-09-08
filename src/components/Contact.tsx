@@ -54,9 +54,9 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      details: "info@careconnect.com",
+      details: "info@junonest.com",
       subDetails: "We respond within 4 hours",
-      action: "mailto:info@careconnect.com"
+      action: "mailto:info@junonest.com"
     },
     {
       icon: MapPin,
